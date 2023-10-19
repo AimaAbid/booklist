@@ -11,3 +11,95 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+html
+{
+    overflow-x: hidden;
+   
+}
+/* //////////////////////////////////////////////////////////////////////////////////// */
+/* BookCreate */
+.container
+{
+  height:40vh;
+  width:100vw;
+  background:linear-gradient(to right,rgba(0, 6, 6, 0.596),rgba(255, 255, 255, 0.786));
+}
+.heading
+{
+  padding-left: 10px;
+  font-size:xx-large;
+}
+
+.book-input
+{
+  height:40px;
+  width:400px;
+  margin-left: 10px;
+}
+
+.submit-button
+{
+  height:40px;
+  width:80px;
+  padding:10px;
+  background-color: aliceblue;
+  color:black;
+  border:2px solid white;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+/* ///////////////////////////////////////////////////////////////////////////////////// */
+
+.book-container
+{
+  min-height:50vh;
+  width:100vw;
+  display:flex;
+  flex-wrap: wrap;
+  
+  background-color:rgba(23, 23, 23, 0.77);
+}
+
+.book
+{
+  
+  height:250px;
+  width:180px;
+  border:1px solid gray;
+  box-shadow: 3px 7px rgba(146, 144, 144, 0.8);
+  background-color:azure;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.text
+{
+  font-size:x-large;
+  
+}
+
+.delete
+{
+  position: absolute;
+  top: 10%;
+  right:10%;
+}
+/* /////////////////////////////////////////////////////////////////////////////////// */
+/* edit  */
+.form-container
+{
+  height:250px;
+  width:180px;
+  border:1px solid gray;
+  box-shadow: 3px 7px rgba(146, 144, 144, 0.8);
+  background-color:azure;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}

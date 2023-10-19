@@ -1,0 +1,32 @@
+{
+  "books": [
+    {
+      "title": "12 Rules of Life.",
+      "id": 2
+    },
+    {
+      "title": "One for my enemy",
+      "id": 3
+    },
+    {
+      "title": "Ikigai",
+      "id": 4
+    },
+    {
+      "title": "Atomic Habits",
+      "id": 5
+    },
+    {
+      "title": "Rich Dad Poor Dad",
+      "id": 6
+    },
+    {
+      "title": "aima",
+      "id": 7
+    },
+    {
+      "title": "jkhkh",
+      "id": 8
+    }
+  ]
+}
